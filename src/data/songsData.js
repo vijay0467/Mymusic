@@ -1,0 +1,228 @@
+export const albums = [
+    {
+      id: 1,
+      name: "DAAKU MAHARAJ",
+      description: "songs of the decade",
+      image: "./src/assets/music-images/m1.jpg",
+      songs: [
+        {
+          id: 1,
+          title: "Bohemian Rhapsody",
+          artist: "Queen",
+          src: "./src/assets/music/song-1.mp3",
+          image: "./src/assets/music-images/m1.jpg",
+          category: "Top Songs", 
+        },
+        {
+          id: 2,
+          title: "Hotel California",
+          artist: "Eagles",
+          src: "./src/assets/music/song-1.mp3",
+          image: "./src/assets/music-images/m1.jpg",
+          category: "Newly Released", 
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "SANKRANTHI",
+      description: "Top pop songs",
+      image: "./src/assets/music-images/m2.webp",
+      songs: [
+        {
+          id: 1,
+          title: "Shape of You",
+          artist: "Ed Sheeran",
+          src: "./src/assets/music/song-2.mp3",
+          image: "./src/assets/music-images/m2.webp",
+          category: "Top Songs", 
+        },
+        {
+          id: 2,
+          title: "Blinding Lights",
+          artist: "The Weeknd",
+          src: "./src/assets/music/song-2.mp3",
+          image: "./src/assets/music-images/m2.webp",
+          category: "Newly Released", 
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "PUSHPA 2",
+      description: "Top Telugu songs",
+      image: "./src/assets/music-images/m3.jpg",
+      songs: [
+        {
+          id: 1,
+          title: "Butta Bomma",
+          artist: "Armaan Malik",
+          src: "./src/assets/music/song-3.mp3",
+          image: "./src/assets/music-images/m3.jpg",
+          category: "Telugu Songs", 
+        },
+        {
+          id: 2,
+          title: "Samajavaragamana",
+          artist: "Sid Sriram",
+          src: "./src/assets/music/song-3.mp3",
+          image: "./src/assets/music-images/m3.jpg",
+          category: "Telugu Songs", 
+        },
+      ],
+    },
+    {
+      id: 4,
+      name: "GAME CHANGER",
+      description: "Latest telugu songs",
+      image: "./src/assets/music-images/m4.jpg",
+      songs: [
+        {
+          id: 1,
+          title: "Kesariya",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-4.mp3",
+          image: "./src/assets/music-images/m4.jpg",
+          category: "Hindi Songs", 
+        },
+        {
+          id: 2,
+          title: "Apna Bana Le",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-4.mp3",
+          image: "./src/assets/music-images/m4.jpg",
+          category: "Hindi Songs", 
+        },
+      ],
+    },
+    {
+      id: 5,
+      name: "DEVARA",
+      description: "Latest telugu songs",
+      image: "./src/assets/music-images/m5.webp",
+      songs: [
+        {
+          id: 1,
+          title: "Kesariya",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-5.mp3",
+          image: "./src/assets/music-images/m5.webp",
+          category: "Hindi Songs", 
+        },
+      ],
+    },
+    {
+      id: 6,
+      name: "KANGUVA",
+      description: "Latest telugu songs",
+      image: "./src/assets/music-images/m6.jpg",
+      songs: [
+        {
+          id: 1,
+          title: "Kesariya",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-6.mp3",
+          image: "./src/assets/music-images/m6.jpg",
+          category: "Hindi Songs", 
+        },
+      ],
+    },
+    {
+      id: 7,
+      name: "MAD  SQUARE",
+      description: "Latest telugu songs",
+      image: "./src/assets/music-images/m7.jpg",
+      songs: [
+        {
+          id: 1,
+          title: "Kesariya",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-7.mp3",
+          image: "./src/assets/music-images/m7.jpg",
+          category: "Hindi Songs", 
+        },
+      ],
+    },
+    {
+      id: 9,
+      name: "HIT 3",
+      description: "Latest telugu songs",
+      image: "./src/assets/music-images/m8.jpg",
+      songs: [
+        {
+          id: 1,
+          title: "Kesariya",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-8.mp3",
+          image: "./src/assets/music-images/m8.jpg",
+          category: "Hindi Songs", 
+        },
+      ],
+    },
+     
+    {
+      id: 10,
+      name: "DJ TILLU",
+      description: "Latest telugu songs",
+      image: "./src/assets/music-images/m10.jpg",
+      songs: [
+        {
+          id: 1,
+          title: "Kesariya",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-10.mp3",
+          image: "./src/assets/music-images/m10.jpg",
+          category: "Hindi Songs", 
+        },
+      ],
+    },
+    {
+      id: 11,
+      name: "RX100",
+      description: "Latest telugu songs",
+      image: "./src/assets/music-images/m11.webp",
+      songs: [
+        {
+          id: 1,
+          title: "Kesariya",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-11.mp3",
+          image: "./src/assets/music-images/m11.webp",
+          category: "Hindi Songs", 
+        },
+      ],
+    },
+    {
+      id: 12,
+      name: "DARLING",
+      description: "Latest telugu songs",
+      image: "./src/assets/music-images/m12.jpg",
+      songs: [
+        {
+          id: 1,
+          title: "Kesariya",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-12.mp3",
+          image: "./src/assets/music-images/m12.jpg",
+          category: "Hindi Songs", 
+        },
+      ],
+    },
+    {
+      id: 13,
+      name: "KUSHI",
+      description: "Latest telugu songs",
+      image: "./src/assets/music-images/m13.jpg",
+      songs: [
+        {
+          id: 1,
+          title: "Kesariya",
+          artist: "Arijit Singh",
+          src: "./src/assets/music/song-13.mp3",
+          image: "./src/assets/music-images/m13.jpg",
+          category: "Hindi Songs", 
+        },
+      ],
+    },
+  ];
+  
