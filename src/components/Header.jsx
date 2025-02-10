@@ -6,7 +6,7 @@ const Header = ({onHandleDark,mode}) => {
     <div className="header container p-4 shadow border border-danger position-fixed " style={{backgroundColor:mode?"#333":"#fff"}}>
       <div className="d-flex justify-content-between align-items-center ">
         <h2 className="fw-bold header-title text-2xl">
-        <img src="./src/assets/music-images/logo.jpg" alt="music" className="me-2 rounded-pill" style={{ width: "40px", height: "40px" }} />
+        <img src="logo.jpg" alt="music" className="me-2 rounded-pill" style={{ width: "40px", height: "40px" }} />
           MyMusic</h2>
         <div className="header-content fs-2 d-flex align-items-center g-3">
           <i className="bi bi-heart"></i>
